@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>registration page</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: pink;
+}
+table{
+text-align:center;
+}
+td
+{
+padding:8px
+}
+</style>
+</head>
+<body>
+<p><a  href="https://www.iiit.ac.in">
+<img src="iiit.png" alt="iiit" style="float-right;height:80px;width:150px;"/></a></p>
+<a href="https://serc.iiit.ac.in/rdip" style="position:absolute;left:1350px;top:50px;"><b><u>RDIP</u></b></a><br>
+
+<ul>
+  <li><a href="homepage.html">Home</a></li>
+  <li><a href="registration.html">Registration Form</a></li>
+  
+</ul>
+<form action="details.html" method="get">
+<table>
+<tr>
+<td><b>First Name:</b></td>
+<td><input class:"s" type="text" name="FirstName" id="FirstName" maxlength="50" />
+
+</td>
+</tr>
+
+<tr>
+<td><b>Email:</b></td>
+<td><input type="email" name="EmailID" id="EmailID" maxlength="100"/></td>
+</tr>
+
+<tr>
+<td><b>Phone No:</b></td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10"/>
+</td>
+</tr>
+
+<tr>
+<td><b>Gender:</b></td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+<input type="radio" name="Gender" value="other" />
+Other
+</td>
+</tr>
+
+
+<tr>
+<td><b>Reason for RDIP:</b></td>
+<td>
+<input type="checkbox" name="sub" value="HTML" />
+HTML
+<input type="checkbox" name="sub" value="CSS" />
+CSS
+<input type="checkbox" name="sub" value="JavaScript" />
+Javascript
+</td>
+</tr>
+<tr>
+<td><b>College:</b></td>
+<td><input type="text" name="college" id="college" maxlength="50" /></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" name="declare" value="declare" />
+<td><b>I declare above details given by me are true.</b></td></tr>
+<tr><td><button type="submit" value="Submit">Submit</button></td>
+<td><button type="reset" value="Reset">Reset</button></td>
+</tr>
+</table>
+</form> 
+</body>
+</html>
